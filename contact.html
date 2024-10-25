@@ -28,6 +28,7 @@
     <title>contact.</title>
   </head>
   <body>
+    <!--Nav bar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -60,14 +61,11 @@
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html"
-                >Contact</a
-              >
-            </li>
+
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
+                aria-current="page"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -76,8 +74,14 @@
                 Contact
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Project inquiry</a></li>
-                <li><a class="dropdown-item" href="#">Join our Team</a></li>
+                <li>
+                  <a class="dropdown-item" href="client-contact.html"
+                    >Project inquiry</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="team.html">Join our Team</a>
+                </li>
               </ul>
             </li>
           </ul>
@@ -85,6 +89,7 @@
       </div>
     </nav>
 
+    <!--form-->
     <form
       id="fs-frm"
       name="simple-contact-form"
@@ -93,7 +98,8 @@
       method="post"
     >
       <fieldset id="fs-frm-inputs">
-        <label for="full-name">Full Name</label>
+        <label class="p-3" for="full-name">Full Name</label>
+           </br>
         <input
           type="text"
           name="name"
@@ -101,7 +107,9 @@
           placeholder="First and Last"
           required=""
         />
-        <label for="email-address">Email Address</label>
+      </br>
+        <label class="p-3" for="email-address">Email Address</label>
+           </br>
         <input
           type="email"
           name="_replyto"
@@ -109,7 +117,9 @@
           placeholder="email@domain.tld"
           required=""
         />
-        <label for="message">Message</label>
+           </br>
+        <label class="p-3" for="message">What role your interested in?</label>
+           </br>
         <textarea
           rows="5"
           name="message"
@@ -124,20 +134,8 @@
           value="Contact Form Submission"
         />
       </fieldset>
+         </br>
       <input type="submit" value="Submit" />
     </form>
-
-    <!-- Join our team -->
-    Join Our Team Are you passionate about design, development, or digital
-    creativity? We’re always excited to connect with talented professionals who
-    share our vision for building beautiful, functional websites. Whether you’re
-    a designer, developer, or creative, we’d love to hear from you! At Nimble,
-    we offer a flexible structure that lets you work on your own terms. Set your
-    own rates, choose the projects that resonate with you, and maintain the
-    freedom to work independently—no long-term commitments required. It’s a
-    collaborative environment where you have control over your schedule and the
-    work you take on. If this sounds like the right fit for you, send us your
-    email and a brief description of what you do. Let’s create something great
-    together! We look forward to hearing from you!
   </body>
 </html>

@@ -1,0 +1,11 @@
+/* CONTACT PAGE FORM */
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #eb7fda;
+  border-radius: 33px;
+  width: 300px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
