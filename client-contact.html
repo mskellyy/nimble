@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <!-- BOOTSTRAP -->
@@ -28,7 +28,7 @@
     <title>Lets work together.</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
@@ -87,22 +87,77 @@
         </div>
       </div>
     </nav>
+    <div class="contact-block">
+    <div class="container">
+      <h1 class="p-3">Let’s Build Something Amazing Together</h1>
+      <p>
+        Looking to elevate your online presence with a website that reflects
+        your brand’s unique identity? We’re here to bring your vision to life
+        with a blend of beautiful design, responsive functionality, and tailored
+        solutions. Whether you need a website, branding support, or other
+        digital services, we’re ready to help you grow your business and achieve
+        your goals. To get started, fill out the form below to tell us a bit
+        about your project. We’ll reach out to discuss your needs, goals, and
+        how we can create a solution that’s perfect for you. 
+      </br>
+      We’re excited to
+        learn more about your business and explore how we can work together to
+        make an impact!
+      </p>
 
-    <h1>Let’s Build Something Amazing Together</h1>
-    <p>
-      ooking to elevate your online presence with a website that reflects your
-      brand’s unique identity? We’re here to bring your vision to life with a
-      blend of beautiful design, responsive functionality, and tailored
-      solutions. Whether you need a website, branding support, or other digital
-      services, we’re ready to help you grow your business and achieve your
-      goals. To get started, fill out the form below to tell us a bit about your
-      project. We’ll reach out to discuss your needs, goals, and how we can
-      create a solution that’s perfect for you. We’re excited to learn more
-      about your business and explore how we can work together to make an
-      impact!
-    </p>
+      <h3>Ready to get started? Let’s connect.</h3>
+    </div>
+    </div>
 
-    <h3>Ready to get started? Let’s connect.</h3>
+     <!--form-->
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/mldedgey"
+      method="post"
+    >
+      <fieldset id="fs-frm-inputs">
+        <label class="p-3" for="full-name">Full Name</label>
+           </br>
+        <input
+          type="text"
+          name="name"
+          id="full-name"
+          placeholder="First and Last"
+          required=""
+        />
+      </br>
+        <label class="p-3" for="email-address">Email Address</label>
+           </br>
+        <input
+          type="email"
+          name="_replyto"
+          id="email-address"
+          placeholder="email@domain.tld"
+          required=""
+        />
+           </br>
+        <label class="p-3" for="message">What role your interested in?</label>
+           </br>
+        <textarea
+          rows="5"
+          name="message"
+          id="message"
+          placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+          required=""
+        ></textarea>
+        <input
+          type="hidden"
+          name="_subject"
+          id="email-subject"
+          value="Contact Form Submission"
+        />
+      </fieldset>
+         </br>
+      <input type="submit" value="Submit" />
+    </form>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

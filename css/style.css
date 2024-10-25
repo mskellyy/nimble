@@ -1,3 +1,89 @@
+/* Google fonts code
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*/
+
+/* Variables */
+
+:root {
+  --title-font: "bodoni Moda", serif;
+  --heading: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-weight: 700;
+}
+
+p {
+  font-family: var(--heading);
+}
+
+h3 {
+  font-family: var(--heading);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  width: auto;
+}
+
+/* INDEX PAGE */
+
+.hero-services {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: #545454;
+  padding: 30px;
+  border-radius: 33px;
+  width: auto;
+}
+
+.hero-services h1 {
+  font-family: var(--title-font);
+  font-style: italic;
+  font-size: 60px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.hero-services section {
+  margin: 6px;
+}
+
+.hero-services span {
+  border: 1px solid white;
+  border-radius: 33px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: var(--heading);
+}
+
 /* CONTACT PAGE FORM */
 
 form {
