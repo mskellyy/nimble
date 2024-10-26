@@ -20,13 +20,33 @@
   font-style: normal;
 }
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 */
 
 /* Variables */
 
 :root {
   --title-font: "bodoni Moda", serif;
-  --heading: "Montserrat", sans-serif;
+  --heading: "Lora", serif;
+  --paragraph: "Montserrat", sans-serif;
+  --beige: #e3dcca;
+  --darkgrey: #6b5d58;
 }
 
 h1 {
@@ -35,11 +55,11 @@ h1 {
 }
 
 p {
-  font-family: var(--heading);
+  font-family: var(--paragraph);
 }
 
 h3 {
-  font-family: var(--heading);
+  font-family: var(--paragraph);
   font-weight: 400;
   font-size: 20px;
 }
@@ -47,26 +67,41 @@ h3 {
 .container {
   text-align: center;
   width: auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 /* INDEX PAGE */
+
+.hero h5 {
+  font-family: "Yeseva One", serif;
+  font-size: 80px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.hero h3 {
+  text-align: left;
+  margin-top: 20px;
+}
 
 .hero-services {
   margin: 0 auto;
   text-align: center;
   color: white;
-  background-color: #545454;
-  padding: 30px;
-  border-radius: 33px;
+  background-color: var(--darkgrey);
+  padding: 80px;
+
   width: auto;
 }
 
 .hero-services h1 {
   font-family: var(--title-font);
   font-style: italic;
-  font-size: 60px;
-  letter-spacing: 3px;
+  font-size: 70px;
+  letter-spacing: 2px;
   margin-bottom: 40px;
+  line-height: 1.5;
 }
 
 .hero-services section {
@@ -81,7 +116,16 @@ h3 {
   padding-right: 30px;
   margin: 10px;
   margin-top: 20px;
-  font-family: var(--heading);
+  font-family: var(--paragraph);
+}
+
+.hero-mission {
+  font-family: var(--paragraph);
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /* CONTACT PAGE FORM */
@@ -89,7 +133,7 @@ h3 {
 form {
   text-align: center;
   margin: 0 auto;
-  border: 1px solid #eb7fda;
+  border: 1px solid pink;
   border-radius: 33px;
   width: 300px;
   padding-bottom: 20px;
