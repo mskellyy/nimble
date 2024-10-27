@@ -144,3 +144,11 @@ form {
   padding-bottom: 20px;
   margin-top: 20px;
 }
+
+/* FOOTER */
+
+footer .footer-logo {
+  display: block;
+
+  margin: 0 auto;
+}
