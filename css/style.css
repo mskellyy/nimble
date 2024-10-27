@@ -125,6 +125,24 @@ h3 {
   font-family: var(--paragraph);
 }
 
+.grid {
+  display: grid;
+  grid: auto / repeat(6, 1fr);
+  gap: 8px;
+}
+
+.griditem {
+  padding: 1rem;
+  font-size: 30px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.grid .griditem:nth-child(5n),
+.grid .griditem:nth-child(5n-1) {
+  grid-column: span 3;
+}
+
 .hero-mission {
   font-family: var(--paragraph);
   font-size: 17px;
@@ -156,4 +174,14 @@ footer .footer-logo {
 
 footer {
   background-color: #f8f9fa;
+}
+
+@media (max-width: 900px) {
+  .hero-services .grid {
+    grid-template-columns: 1fr;
+  }
+
+  section span {
+    display: block;
+  }
 }
