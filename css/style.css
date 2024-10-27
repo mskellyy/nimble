@@ -189,6 +189,12 @@ form {
   width: 120px;
 }
 
+.form-input {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
 /* FOOTER */
 
 footer .footer-logo {
