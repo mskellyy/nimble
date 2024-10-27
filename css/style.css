@@ -165,18 +165,35 @@ h3 {
 form {
   text-align: center;
   margin: 0 auto;
-  border: 1px solid pink;
+  background-color: var(--lightpurple);
   border-radius: 33px;
   width: 300px;
   padding-bottom: 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-text {
+  font-family: var(--paragraph);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form-btn {
+  border: 1px solid white;
+  border-radius: 33px;
+  padding: 10px;
+  font-family: var(--paragraph);
+  font-size: 15px;
+  font-weight: 600;
+  width: 120px;
 }
 
 /* FOOTER */
 
 footer .footer-logo {
   display: block;
-  width: 30%;
+  width: 20%;
   margin: 0 auto;
 }
 
