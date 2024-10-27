@@ -133,9 +133,17 @@ h3 {
 
 .griditem {
   padding: 1rem;
-  font-size: 30px;
+  font-size: 17px;
   text-align: center;
   grid-column: span 2;
+  border: 1px solid white;
+  border-radius: 33px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  margin-top: 20px;
+  font-family: var(--paragraph);
 }
 
 .grid .griditem:nth-child(5n),
@@ -168,7 +176,7 @@ form {
 
 footer .footer-logo {
   display: block;
-
+  width: 30%;
   margin: 0 auto;
 }
 
@@ -176,12 +184,42 @@ footer {
   background-color: #f8f9fa;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-section {
+  margin-left: 5px;
+}
+
 @media (max-width: 900px) {
+  body {
+    max-width: auto;
+  }
   .hero-services .grid {
     grid-template-columns: 1fr;
   }
 
   section span {
     display: block;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  section {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+  }
+
+  .footer-logo {
+    width: 100px;
+  }
+
+  .footer-section {
+    margin-top: 15px;
+    margin-left: 5px;
   }
 }
