@@ -168,14 +168,30 @@ h3 {
   margin-bottom: 40px;
 }
 
-/* CONTACT PAGE FORM */
+/* CONTACT PAGE / FORM */
+
+.contact {
+  width: 600px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact h1 {
+  margin-bottom: 33px;
+}
+
+.contact h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 33px;
+}
 
 form {
   text-align: center;
   margin: 0 auto;
   background-color: var(--lightpurple);
   border-radius: 33px;
-  width: 300px;
+  width: 350px;
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
