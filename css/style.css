@@ -300,6 +300,13 @@ footer {
   margin-left: 5px;
 }
 
+@media (max-width: 1100px) {
+  .package-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+  }
+
 @media (max-width: 900px) {
   .hero-services .grid {
     grid-template-columns: 1fr;
@@ -328,11 +335,6 @@ footer {
     width: 300px;
   }
 
-  .package-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 50px;
-  }
 
   .footer-logo {
     width: 100px;
@@ -341,5 +343,14 @@ footer {
   .footer-section {
     margin-top: 15px;
     margin-left: 5px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .package-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
   }
 }
