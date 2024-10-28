@@ -306,6 +306,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     row-gap: 50px;
   }
+}
 
 @media (max-width: 900px) {
   .hero-services .grid {
@@ -335,7 +336,6 @@ footer {
     width: 300px;
   }
 
-
   .footer-logo {
     width: 100px;
   }
@@ -346,11 +346,14 @@ footer {
   }
 }
 
-
 @media (max-width: 600px) {
   .package-grid {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 50px;
+  }
+
+  .hero-services h4 {
+    font-size: 15px;
   }
 }
