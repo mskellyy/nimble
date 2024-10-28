@@ -275,6 +275,10 @@ form {
   margin: 0 auto;
 }
 
+.card-header {
+  background-color: var(--lightpurple);
+}
+
 /* FOOTER */
 
 footer .footer-logo {
@@ -322,6 +326,12 @@ footer {
     margin: 0 auto;
     text-align: center;
     width: 300px;
+  }
+
+  .package-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
   }
 
   .footer-logo {
