@@ -50,6 +50,8 @@
 
   --main-title: "Yeseva One", serif;
 
+  --border: 1px solid white;
+
   --beige: #e3dcca;
   --darkgrey: #6b5d58;
   --lightpurple: #dccfec;
@@ -89,7 +91,7 @@ h3 {
 /* INDEX PAGE */
 
 .hero h5 {
-  font-family: "Yeseva One", serif;
+  font-family: var(--main-title);
   font-size: 70px;
   text-align: left;
   margin-top: 30px;
@@ -115,7 +117,20 @@ h3 {
   font-size: 70px;
   letter-spacing: 2px;
   margin-bottom: 40px;
-  line-height: 1.5;
+  line-height: 0;
+}
+
+.hero-services h1:hover {
+  color: var(--darkgrey);
+}
+
+.hero-services h4 {
+  font-family: var(--paragraph);
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 0;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
 }
 
 .hero-services section {
@@ -224,11 +239,47 @@ form {
   padding: 10px;
 }
 
+/* SERVICES PAGE */
+
+.package-img {
+  max-width: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card-btn {
+  border: 2px solid var(--lightpurple);
+  border-radius: 33px;
+  padding: 10px;
+  font-family: var(--paragraph);
+  font-size: 15px;
+  font-weight: 600;
+  width: 200px;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  transition: all 1.5s;
+}
+
+.itgirl-content {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* FOOTER */
 
 footer .footer-logo {
   display: block;
-  width: 20%;
+  max-width: 20%;
   margin: 0 auto;
 }
 
