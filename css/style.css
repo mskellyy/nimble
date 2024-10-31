@@ -102,6 +102,15 @@ h3 {
   margin-top: 20px;
 }
 
+.hero {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.hero .card-btn {
+  margin-top: 40px;
+}
+
 .hero-services {
   margin: 0 auto;
   text-align: center;
@@ -121,7 +130,8 @@ h3 {
 }
 
 .hero-services h1:hover {
-  color: var(--darkgrey);
+  transform: scale(1.1);
+  transition: all 1.1s;
 }
 
 .hero-services h4 {
@@ -300,6 +310,8 @@ footer {
   margin-left: 5px;
 }
 
+/* MEDIA QUERIES */
+
 @media (max-width: 1100px) {
   .package-grid {
     display: grid;
@@ -308,6 +320,7 @@ footer {
   }
 }
 
+/* ipad */
 @media (max-width: 900px) {
   .hero-services .grid {
     grid-template-columns: 1fr;
@@ -346,6 +359,7 @@ footer {
   }
 }
 
+/* iphone */
 @media (max-width: 600px) {
   .package-grid {
     display: grid;
