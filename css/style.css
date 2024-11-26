@@ -203,7 +203,8 @@ h3 {
 .process-section h5 {
   font-family: var(--main-title);
   font-size: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  margin-top: 80px;
   padding-left: 115px;
 }
 
@@ -250,8 +251,8 @@ h3 {
 
 .collab-banner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 2px;
   margin: 0 auto;
   margin-top: 100px;
   justify-content: space-evenly;
@@ -264,7 +265,7 @@ h3 {
   padding-bottom: 20px;
 }
 
-.banner img {
+.banner-card img {
   border: 1px solid #000000;
   border-radius: 40px;
 }
@@ -272,10 +273,13 @@ h3 {
 .banner-card {
   border: 1px solid #000000;
   border-radius: 40px;
-  padding: 30px;
   width: 250px;
+  height: 200px;
 }
 
+.banner-text {
+  padding: 30px;
+}
 /* CONTACT PAGE / FORM */
 
 .contact {
