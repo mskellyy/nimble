@@ -249,6 +249,11 @@ form {
   padding: 10px;
 }
 
+.grid-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 /* SERVICES PAGE */
 
 .package-img {
@@ -272,6 +277,7 @@ form {
   font-size: 15px;
   font-weight: 600;
   width: 200px;
+  margin-top: 20px;
 }
 
 .project-card:hover {
@@ -285,15 +291,27 @@ form {
   margin: 0 auto;
 }
 
-.card-header {
+.itgirl-content .card-header {
   background-color: var(--lightpurple);
+}
+
+.itgirl-content .card-body {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.itgirl-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 /* FOOTER */
 
 footer .footer-logo {
   display: block;
-  max-width: 20%;
+  max-width: 200px;
   margin: 0 auto;
 }
 
