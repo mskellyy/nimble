@@ -252,11 +252,11 @@ h3 {
 .collab-banner {
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
-  gap: 2px;
+  gap: 7px;
   margin: 0 auto;
   margin-top: 100px;
-  justify-content: space-evenly;
   justify-items: center;
+  justify-content: center;
   align-content: space-evenly;
   align-items: center;
   background-color: #f1e6e0;
@@ -280,6 +280,7 @@ h3 {
 .banner-text {
   padding: 30px;
 }
+
 /* CONTACT PAGE / FORM */
 
 .contact {
