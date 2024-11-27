@@ -52,9 +52,9 @@
 
   --border: 1px solid white;
 
-  --beige: #e3dcca;
   --darkgrey: #6b5d58;
   --lightpurple: #dccfec;
+  --beige: #f1e6e0;
 }
 
 html,
@@ -356,6 +356,14 @@ form {
 
 /* SERVICES PAGE */
 
+.services h5 {
+  font-size: 17px;
+}
+
+.services h3 {
+  font-size: 13px;
+}
+
 .package-img {
   max-width: 20%;
   margin: 0 auto;
@@ -374,14 +382,24 @@ form {
 }
 
 .card-btn {
-  border: 2px solid var(--lightpurple);
+  border: 1px solid var(--lightpurple);
   border-radius: 33px;
   padding: 10px;
   font-family: var(--paragraph);
   font-size: 15px;
   font-weight: 600;
   width: 200px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.services {
+  padding: 30px;
+}
+
+.services .card-btn {
+  width: 100px;
+  font-size: 12px;
+  padding: 7px;
 }
 
 .project-card:hover {
@@ -390,7 +408,6 @@ form {
 }
 
 .itgirl-content {
-  max-width: 900px;
   display: block;
   margin: 0 auto;
 }
@@ -400,7 +417,7 @@ form {
 }
 
 .itgirl-content .card-body {
-  width: 600px;
+  max-width: 100%;
   text-align: center;
   margin: 0 auto;
   margin-top: 20px;
@@ -408,11 +425,7 @@ form {
 
 .itgirl-section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.itgirl-left {
-  justify-content: stretch;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* FOOTER */
