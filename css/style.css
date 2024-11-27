@@ -304,6 +304,7 @@ h3 {
   line-height: 1.5;
   font-weight: 600;
   width: 120px;
+  color: var(--darkgrey);
 }
 
 /* CONTACT PAGE / FORM */
@@ -467,26 +468,24 @@ form {
   font-size: 13px;
 }
 
-.itgirl-content {
-  display: block;
-  margin: 0 auto;
-}
-
-.itgirl-content .card-header {
-  background-color: var(--lightpurple);
-}
-
-.itgirl-content .card-body {
-  max-width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
 .itgirl-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: stretch;
+  gap: 2px;
+}
+
+.itgirl-right h1 {
+  font-size: 30px;
+}
+
+.itgirl-right h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.itgirl-right p {
+  font-size: 15px;
 }
 
 /* FOOTER */
@@ -540,6 +539,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 50px;
+  }
+
+  .itgirl-right p {
+    font-size: 13px;
+    padding-right: 20px;
   }
 }
 
