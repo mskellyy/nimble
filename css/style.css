@@ -357,9 +357,10 @@ form {
 /* SERVICES PAGE */
 
 .package-img {
-  max-width: 80px;
+  max-width: 20%;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 
 .package-grid {
@@ -367,10 +368,9 @@ form {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 60px;
   margin-bottom: 60px;
-}
-
-.package-grid .card {
-  max-width: 300px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  gap: 5px;
 }
 
 .card-btn {
@@ -409,6 +409,10 @@ form {
 .itgirl-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+
+.itgirl-left {
+  justify-content: stretch;
 }
 
 /* FOOTER */
