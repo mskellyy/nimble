@@ -271,12 +271,12 @@ h3 {
 }
 
 .banner-card img {
-  border: 1px solid #000000;
+  border: 1px solid white;
   border-radius: 40px;
 }
 
 .banner-card {
-  border: 1px solid #000000;
+  border: 1px solid white;
   border-radius: 40px;
   width: 250px;
   height: 200px;
