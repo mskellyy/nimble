@@ -597,4 +597,12 @@ footer {
   .hero-services h4 {
     font-size: 15px;
   }
+
+  .process-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sm-hide {
+    display: none;
+  }
 }
