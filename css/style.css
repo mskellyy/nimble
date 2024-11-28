@@ -500,6 +500,8 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .month-card {
@@ -509,10 +511,16 @@ form {
 }
 
 .month-card h5 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .month-card h3 {
+}
+
+.month-card h4 {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 15px;
 }
 
 /* FOOTER */
@@ -603,6 +611,10 @@ footer {
     width: 300px;
   }
 
+  .itgirl-right p {
+    font-size: 12px;
+  }
+
   .footer-logo {
     width: 100px;
   }
@@ -645,5 +657,23 @@ footer {
     align-self: center;
     margin-left: 40px;
     margin-bottom: 20px;
+  }
+
+  .itgirl-left {
+    align-self: center;
+    margin-left: 40px;
+  }
+
+  .month-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .footer-grid {
+    width: 500px;
+    margin: 0 auto;
+    justify-items: center;
+    place-items: center;
   }
 }
