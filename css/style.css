@@ -677,4 +677,8 @@ footer {
     justify-items: center;
     place-items: center;
   }
+
+  .collab-banner {
+    grid-template-columns: 1fr 1fr;
+  }
 }
