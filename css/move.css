@@ -146,7 +146,7 @@ p {
   fill: currentcolor;
 }
 
-/* SCROLL */
+/* SCROLL fade up from bottom */
 
 .hero-services {
   opacity: 0; /* Start hidden */
