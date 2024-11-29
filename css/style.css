@@ -452,6 +452,16 @@ form {
   text-align: center;
 }
 
+.service-menu-2 {
+  background-color: var(--lightpurple);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 5px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .service-menu h1 {
   font-family: var(--logo-font);
   font-weight: 800;
@@ -465,6 +475,22 @@ form {
 }
 
 .service-menu h3 {
+  font-size: 13px;
+}
+
+.service-menu-2 h1 {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.service-menu-2 h5 {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.service-menu-2 h3 {
   font-size: 13px;
 }
 
