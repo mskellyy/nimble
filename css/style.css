@@ -530,6 +530,7 @@ footer .footer-logo {
   display: block;
   max-width: 60px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 footer {
@@ -562,6 +563,7 @@ footer {
   font-size: 13px;
   color: var(--darkgrey);
   align-self: flex-start;
+  cursor: pointer;
 }
 
 .footer-grid h6 {
