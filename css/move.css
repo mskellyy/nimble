@@ -158,3 +158,25 @@ p {
   opacity: 1; /* Fully visible */
   transform: translateY(0); /* Return to original position */
 }
+
+.package-grid {
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below its original position */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth animation */
+}
+
+.package-grid.animate {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
+
+.service-menu {
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly below its original position */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth animation */
+}
+
+.service-menu.animate {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Return to original position */
+}
