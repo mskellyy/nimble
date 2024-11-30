@@ -149,6 +149,15 @@ h3 {
   margin-bottom: 40px;
 }
 
+.hero-link {
+  text-decoration: none;
+}
+
+.hero h5:hover {
+  transform: scale(1.1);
+  transition: all 1.5s;
+}
+
 .hero-services section {
   margin: 6px;
 }
