@@ -411,6 +411,10 @@ form {
   font-size: small;
 }
 
+.card-body h5 {
+  font-size: 17px;
+}
+
 .list-group-item {
   font-size: small;
 }
