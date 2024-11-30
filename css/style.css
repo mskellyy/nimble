@@ -135,11 +135,6 @@ h3 {
   line-height: 0;
 }
 
-.hero-services h1:hover {
-  transform: scale(1.1);
-  transition: all 1.1s;
-}
-
 .hero-services h4 {
   font-family: var(--paragraph);
   font-size: 17px;
@@ -181,7 +176,7 @@ h3 {
 
 .griditem {
   padding: 1rem;
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   grid-column: span 2;
   border: 1px solid white;
