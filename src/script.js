@@ -70,8 +70,10 @@ document.addEventListener("DOMContentLoaded", function () {
   observer.observe(serviceMenu2);
 });
 
+// fade in left
+
 document.addEventListener("DOMContentLoaded", function () {
-  const itgirlSection = document.querySelector(".itgirl-section");
+  const aLeft = document.querySelector(".a-left");
 
   const observer = new IntersectionObserver(
     (entries, observer) => {
@@ -85,5 +87,23 @@ document.addEventListener("DOMContentLoaded", function () {
     { threshold: 0.1 } // Trigger when 10% of the element is visible
   );
 
-  observer.observe(itgirlSection);
+  observer.observe(aLeft);
 });
+
+//multiple fade in right
+
+const elementsToAnimate = document.querySelectorAll(".a-right");
+
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate");
+        observer.unobserve(entry.target); // Stop observing after animation
+      }
+    });
+  },
+  { threshold: 0.1 }
+);
+
+elementsToAnimate.forEach((element) => observer.observe(element));
