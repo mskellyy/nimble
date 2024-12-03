@@ -110,7 +110,7 @@ h3 {
 .hero {
   text-align: left;
   margin-top: 100px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .hero .card-btn {
@@ -120,18 +120,18 @@ h3 {
 .hero-services {
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: var(--darkgrey);
   background-color: #dccfec;
   padding: 80px;
   width: auto;
 }
 
 .hero-services h1 {
-  font-family: var(--heading);
-  font-style: italic;
+  font-family: var(--logo-font);
+  font-weight: 800;
   font-size: 70px;
   letter-spacing: 2px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   line-height: 0;
 }
 
