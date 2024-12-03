@@ -204,16 +204,16 @@ h3 {
 }
 
 .process-section {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .process-section h5 {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 50px;
-  margin-bottom: 80px;
-  margin-top: 80px;
-  padding-left: 115px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: left;
 }
 
 .process-section h3 {
