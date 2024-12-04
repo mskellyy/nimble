@@ -752,6 +752,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 50px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .process-item h2 {
+    font-size: 18px;
+  }
+
+  .process-item h4 {
+    font-size: 13px;
   }
 
   .hero-services .grid {
@@ -760,6 +771,28 @@ footer {
 
   .hero-services h4 {
     font-size: 15px;
+  }
+
+  .hero-about {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .hero-about-left {
+    align-self: center;
+    margin-left: 40px;
+  }
+
+  .hero-about-right {
+    align-self: center;
+    margin-left: 40px;
+  }
+
+  .hero-about .card-btn {
+    font-size: 12px;
+    margin-bottom: 20px;
   }
 
   .process-grid {
@@ -804,5 +837,14 @@ footer {
 
   .collab-banner {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .banner-text h3 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .banner-text p {
+    font-size: 13px;
   }
 }
