@@ -198,7 +198,7 @@ p {
 .message-content {
   display: inline-block; /* Keep the text in one line */
   white-space: nowrap; /* Prevent line breaks */
-  animation: scroll-message 20s linear infinite; /* Infinite scrolling animation */
+  animation: scroll-message 30s linear infinite; /* Infinite scrolling animation */
 }
 
 @keyframes scroll-message {
