@@ -89,6 +89,31 @@ h3 {
   margin-top: 20px;
 }
 
+/* MESSAGE BANNERS */
+
+.message-banner {
+  background-color: var(--beige);
+  padding: 10px;
+}
+
+.message-banner h6 {
+  font-size: 15px;
+}
+
+.white-banner {
+  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000000;
+  background-color: white;
+}
+
+.black-banner {
+  background-color: black;
+}
+
+.black-banner .message-content {
+  color: white;
+}
+
 /* INDEX PAGE */
 
 .hero h5 {
@@ -238,29 +263,6 @@ h3 {
 .hero-about-right .card-btn {
   border: 1px solid #000000;
   margin-top: 25px;
-}
-
-.message-banner {
-  background-color: var(--beige);
-  padding: 10px;
-}
-
-.message-banner h6 {
-  font-size: 15px;
-}
-
-.white-banner {
-  border-bottom: 1px solid #000000;
-  border-top: 1px solid #000000;
-  background-color: white;
-}
-
-.black-banner {
-  background-color: black;
-}
-
-.black-banner .message-content {
-  color: white;
 }
 
 .process-section {
@@ -569,7 +571,7 @@ form {
 }
 
 .itgirl-right h2 {
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 10px;
 }
 
