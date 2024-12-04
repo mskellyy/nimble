@@ -87,7 +87,6 @@ h3 {
   text-align: center;
   width: auto;
   margin-top: 20px;
-  margin-bottom: 80px;
 }
 
 /* INDEX PAGE */
@@ -115,12 +114,16 @@ h3 {
 
 .hero .card-btn {
   margin-top: 40px;
+  border: 1px solid #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
 }
 
 .hero-services {
   margin: 0 auto;
   text-align: center;
-  color: var(--darkgrey);
+  color: black;
   background-color: #dccfec;
   padding: 80px;
   width: auto;
@@ -128,8 +131,8 @@ h3 {
 
 .hero-services h1 {
   font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 70px;
+  font-weight: 600;
+  font-size: 60px;
   letter-spacing: 2px;
   margin-bottom: 25px;
   line-height: 0;
@@ -231,6 +234,21 @@ h3 {
   font-size: 15px;
 }
 
+.hero-about-right h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+.hero-about-right p {
+  margin-bottom: 20px;
+}
+
+.hero-about-right .card-btn {
+  border: 1px solid #000000;
+  margin-top: 50px;
+}
+
 .message-banner {
   background-color: var(--beige);
   padding: 10px;
@@ -240,14 +258,14 @@ h3 {
   font-size: 15px;
 }
 
-.process-banner {
+.white-banner {
   border-bottom: 1px solid #000000;
   border-top: 1px solid #000000;
   background-color: white;
 }
 
 .process-section {
-  margin-bottom: 50px;
+  padding: 20px;
 }
 
 .process-section h5 {
