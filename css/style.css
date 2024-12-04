@@ -137,7 +137,7 @@ h3 {
 
 .hero-services h4 {
   font-family: var(--paragraph);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 500;
   margin-top: 0;
   letter-spacing: 3px;
@@ -201,6 +201,43 @@ h3 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.hero-about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.hero-about .hero-about-left {
+  align-content: stretch;
+}
+
+.hero-about .hero-about-right {
+  align-self: center;
+  margin-right: 20px;
+}
+
+.hero-about-right h1 {
+  font-size: 30px;
+}
+
+.hero-about-right h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.hero-about-right p {
+  font-size: 15px;
+}
+
+.message-banner {
+  background-color: var(--beige);
+  padding: 10px;
+}
+
+.message-banner h6 {
+  font-size: 15px;
 }
 
 .process-section {

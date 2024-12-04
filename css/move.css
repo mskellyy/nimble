@@ -184,3 +184,37 @@ p {
   opacity: 1; /* Fully visible */
   transform: translateX(0); /* Return to original position */
 }
+
+/* message banner */
+
+.message-banner {
+  position: relative;
+  width: 100%; /* Full width of the screen */
+  overflow: hidden; /* Hide overflow to keep the text inside the banner */
+  background: #f8f9fa; /* Background color of the banner */
+  border: 1px solid #ddd; /* Optional border */
+  padding: 10px 0;
+}
+
+.message-content {
+  display: inline-block; /* Keep the text in one line */
+  white-space: nowrap; /* Prevent wrapping */
+  animation: scroll-message 15s linear infinite; /* Infinite scrolling animation */
+}
+
+@keyframes scroll-message {
+  from {
+    transform: translateX(100%); /* Start from the right */
+  }
+  to {
+    transform: translateX(-100%); /* End on the left */
+  }
+}
+
+.message-banner h6 {
+  display: inline-block; /* Ensure smooth scrolling */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+  margin: 0;
+  padding-left: 100%; /* Add some space to the start of the message */
+}
