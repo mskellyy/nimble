@@ -266,6 +266,7 @@ h3 {
 
 .process-section {
   padding: 20px;
+  background-color: var(--lightpurple);
 }
 
 .process-section h5 {
