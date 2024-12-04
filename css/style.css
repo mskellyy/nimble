@@ -131,7 +131,7 @@ h3 {
 
 .hero-services h1 {
   font-family: var(--logo-font);
-  font-weight: 600;
+  font-weight: 800;
   font-size: 60px;
   letter-spacing: 2px;
   margin-bottom: 25px;
@@ -221,15 +221,6 @@ h3 {
   margin-right: 20px;
 }
 
-.hero-about-right h1 {
-  font-size: 30px;
-}
-
-.hero-about-right h2 {
-  font-size: 20px;
-  padding-bottom: 10px;
-}
-
 .hero-about-right p {
   font-size: 15px;
 }
@@ -237,7 +228,7 @@ h3 {
 .hero-about-right h1 {
   font-size: 40px;
   line-height: 1;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .hero-about-right p {
@@ -246,7 +237,7 @@ h3 {
 
 .hero-about-right .card-btn {
   border: 1px solid #000000;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .message-banner {
@@ -495,6 +486,7 @@ form {
 
 .fine-print {
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
 .service-menu {
@@ -720,6 +712,10 @@ footer {
     font-size: 50px;
   }
 
+  .hero h3 {
+    font-size: 15px;
+  }
+
   .griditem {
     font-size: 13px;
     margin-top: 10px;
@@ -772,6 +768,10 @@ footer {
 
   .hero-services h4 {
     font-size: 15px;
+  }
+
+  .hero h3 {
+    font-size: 13px;
   }
 
   .hero-about {
