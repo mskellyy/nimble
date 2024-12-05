@@ -358,6 +358,14 @@ summary span {
   align-items: center;
 }
 
+.process-grid h2 {
+  font-family: var(--paragraph);
+}
+
+.process-grid h4 {
+  font-size: 13px;
+}
+
 .process-item {
   width: 200px;
   text-align: center;
