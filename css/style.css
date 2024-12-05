@@ -265,6 +265,42 @@ h3 {
   margin-top: 25px;
 }
 
+details {
+  user-select: none;
+  background-color: white;
+  text-align: center;
+}
+
+details > summary span.icon {
+  width: 40px;
+  height: 50px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+details summary {
+  display: flex;
+  cursor: pointer;
+  padding-top: 15px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary h5 {
+  font-family: var(--title-font);
+  font-size: 20px;
+}
+
+.border-btm {
+  border-bottom: 1px solid #000000;
+}
+
 .process-section {
   padding: 20px;
   background-color: var(--lightpurple);
@@ -725,6 +761,15 @@ footer {
   }
 }
 
+details {
+  font-size: 15px;
+}
+
+summary h5 {
+  margin-left: 20px;
+  font-size: 17px;
+}
+
 /* ipad */
 @media (max-width: 900px) {
   .hero-services h1 {
@@ -854,6 +899,14 @@ footer {
     margin: 0 auto;
     justify-items: center;
     place-items: center;
+  }
+
+  details {
+    font-size: 13px;
+  }
+
+  details > summary span.icon {
+    margin-left: auto;
   }
 
   .collab-banner {
