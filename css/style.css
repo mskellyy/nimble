@@ -626,6 +626,16 @@ form {
   font-size: 13px;
 }
 
+/* ABOUT */
+
+.about-container h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+  font-family: var(--logo-font);
+  font-weight: 800;
+}
+
 /* FOOTER */
 
 footer .footer-logo {
