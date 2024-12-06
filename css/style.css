@@ -1,14 +1,4 @@
-/* Google fonts code
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 900
-
-.bodoni-moda-<uniquifier> {
-  font-family: "Bodoni Moda", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+/*
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
@@ -42,8 +32,6 @@
 /* Variables */
 
 :root {
-  --title-font: "bodoni Moda", serif;
-
   --heading: "Playfair Display", serif;
 
   --paragraph: "Montserrat", sans-serif;
@@ -423,7 +411,7 @@ summary span {
 /* CONTACT PAGE / FORM */
 
 .contact {
-  width: 600px;
+  width: max-auto;
   text-align: center;
   margin-top: 40px;
 }
@@ -441,9 +429,9 @@ summary span {
 form {
   text-align: center;
   margin: 0 auto;
-  background-color: var(--lightpurple);
+  background-color: var(--beige);
   border-radius: 33px;
-  width: 350px;
+  width: 300px;
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -451,16 +439,17 @@ form {
 
 .form-text {
   font-family: var(--paragraph);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
+  color: black;
 }
 
 .form-btn {
   border: 1px solid white;
   border-radius: 33px;
-  padding: 10px;
+  padding: 7px;
   font-family: var(--paragraph);
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   width: 120px;
 }
@@ -474,6 +463,35 @@ form {
 .grid-team {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.grid-team .grid-one {
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-team h1 {
+  text-align: center;
+}
+
+.grid-team p {
+  font-size: 13px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.grid-team h3 {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+}
+
+.grid-team form {
+  margin-top: 60px;
 }
 
 /* SERVICES PAGE */
@@ -679,7 +697,7 @@ form {
   text-align: center;
   margin: 0 auto;
   font-size: 50px;
-  font-family: var(--logo-font);
+  font-family: var(--main-title);
   font-weight: 800;
 }
 
@@ -693,7 +711,7 @@ form {
   text-align: center;
   margin: 0 auto;
   font-size: 70px;
-  font-family: var(--title-font);
+  font-family: var(--main-title);
   font-weight: 900;
   margin-top: 30px;
 }
