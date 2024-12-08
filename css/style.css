@@ -711,6 +711,14 @@ form {
   margin-top: 30px;
 }
 
+.meet-kelly h5 {
+  font-size: 14px;
+}
+
+.meet-kelly p {
+  font-size: 13px;
+}
+
 /* FOOTER */
 
 footer .footer-logo {
