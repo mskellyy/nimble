@@ -195,15 +195,15 @@ h3 {
 }
 
 .griditem {
-  padding: 1rem;
-  font-size: 15px;
+  padding: 1px;
+  font-size: 13px;
   text-align: center;
   grid-column: span 2;
   border: 1px solid white;
   border-radius: 33px;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
   margin: 10px;
   margin-top: 20px;
   font-family: var(--paragraph);
