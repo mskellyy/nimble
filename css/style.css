@@ -40,6 +40,8 @@
 
   --logo-font: "League Spartan", sans-serif;
 
+  --bodoni: "Bodoni Moda", serif;
+
   --border: 1px solid white;
 
   --darkgrey: #6b5d58;
@@ -105,11 +107,12 @@ h3 {
 /* INDEX PAGE */
 
 .hero h5 {
-  font-family: var(--logo-font);
+  font-family: "Bodoni Moda", serif;
   font-size: 70px;
   text-align: left;
   margin-top: 30px;
-  font-weight: 800;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1;
 }
 
@@ -145,15 +148,21 @@ h3 {
 .hero-services h1 {
   font-family: var(--logo-font);
   font-weight: 800;
-  font-size: 60px;
+  font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 25px;
   line-height: 0;
 }
 
+.hero-services h1 {
+  font-family: var(--bodoni);
+  font-weight: 400;
+  font-style: italic;
+}
+
 .hero-services h4 {
   font-family: var(--paragraph);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   margin-top: 0;
   letter-spacing: 3px;
@@ -322,6 +331,12 @@ summary span {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: left;
+}
+
+.process-section h5 {
+  font-family: var(--bodoni);
+  font-weight: 400;
+  font-style: italic;
 }
 
 .process-section h4 {
@@ -564,7 +579,8 @@ form {
 .menu-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .project-card:hover {
