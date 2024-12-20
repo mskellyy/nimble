@@ -200,10 +200,11 @@ p {
   }
 }
 
-.message-content h6 {
+.message-banner h6 {
   display: inline-block;
   margin: 0;
-  font-size: 16px;
+  font-size: 13px;
+  font-style: italic;
   color: #333;
   padding-right: 50px; /* Add spacing between repetitions */
 }
