@@ -904,7 +904,7 @@ summary h5 {
   }
 
   .process-item h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hero-services .grid {
@@ -917,6 +917,12 @@ summary h5 {
 
   .hero h3 {
     font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .hero .card-btn {
+    font-size: 13px;
   }
 
   .hero-about {
@@ -938,12 +944,15 @@ summary h5 {
 
   .hero-about .card-btn {
     font-size: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
 
   .process-grid {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .sm-hide {
