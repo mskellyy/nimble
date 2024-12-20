@@ -837,15 +837,19 @@ footer {
   .hero-about-right .card-btn {
     font-size: 14px;
   }
-}
 
-details {
-  font-size: 15px;
-}
+  details {
+    font-size: 15px;
+  }
 
-summary h5 {
-  margin-left: 20px;
-  font-size: 17px;
+  summary h5 {
+    margin-left: 20px;
+    font-size: 17px;
+  }
+
+  .footer-center icons {
+    margin-left: 50px;
+  }
 }
 
 /* ipad */
