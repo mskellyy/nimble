@@ -312,12 +312,17 @@ summary::-webkit-details-marker {
 
 summary h5 {
   font-family: var(--title-font);
-  font-size: 20px;
   align-self: center;
+  margin-left: 20px;
+  font-size: 17px;
 }
 
 summary span {
   padding-left: 40px;
+}
+
+details {
+  font-size: 15px;
 }
 
 .border-btm {
@@ -836,15 +841,6 @@ footer {
 
   .hero-about-right .card-btn {
     font-size: 14px;
-  }
-
-  details {
-    font-size: 15px;
-  }
-
-  summary h5 {
-    margin-left: 20px;
-    font-size: 17px;
   }
 
   .footer-center .icons {
