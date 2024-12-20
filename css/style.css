@@ -107,12 +107,12 @@ h3 {
 /* INDEX PAGE */
 
 .hero h5 {
-  font-family: "Bodoni Moda", serif;
+  font-family: var(--logo-font);
   font-size: 70px;
   text-align: left;
   margin-top: 30px;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 800;
+
   line-height: 1;
 }
 
@@ -152,12 +152,6 @@ h3 {
   letter-spacing: 2px;
   margin-bottom: 25px;
   line-height: 0;
-}
-
-.hero-services h1 {
-  font-family: var(--bodoni);
-  font-weight: 400;
-  font-style: italic;
 }
 
 .hero-services h4 {
@@ -275,11 +269,11 @@ details summary:hover {
 }
 
 .middle {
-  background-color: rgba(220, 207, 236, 0.5);
+  background-color: rgba(220, 207, 236, 0.6);
 }
 
 .bottom {
-  background-color: rgba(220, 207, 236, 0.8);
+  background-color: rgba(220, 207, 236, 0.9);
 }
 
 details > summary span.icon {
@@ -342,11 +336,6 @@ summary span {
   margin-bottom: 50px;
   margin-top: 50px;
   text-align: left;
-}
-
-.process-section h5 {
-  font-family: var(--bodoni);
-  font-weight: 400;
   font-style: italic;
 }
 
@@ -736,18 +725,30 @@ form {
 .about-container h1 {
   text-align: center;
   margin: 0 auto;
-  font-size: 70px;
+  font-size: 25px;
   font-family: var(--main-title);
   font-weight: 900;
   margin-top: 30px;
 }
 
+.meet-kelly h3 {
+  font-family: var(--main-title);
+  font-weight: 400;
+  font-size: 40px;
+  font-style: italic;
+}
+
 .meet-kelly h5 {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .meet-kelly p {
   font-size: 13px;
+}
+
+.meet-kelly .fine-print {
+  font-size: 12px;
 }
 
 /* FOOTER */
@@ -898,7 +899,8 @@ summary h5 {
   }
 
   .process-item h2 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .process-item h4 {
@@ -910,11 +912,11 @@ summary h5 {
   }
 
   .hero-services h4 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .hero h3 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .hero-about {
@@ -941,6 +943,7 @@ summary h5 {
 
   .process-grid {
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
   }
 
   .sm-hide {
