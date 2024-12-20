@@ -1016,4 +1016,8 @@ footer {
   .banner-text p {
     font-size: 13px;
   }
+
+  .footer-center .icons {
+    margin-left: 15px;
+  }
 }
