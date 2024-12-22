@@ -717,13 +717,33 @@ form {
 .port-hero h1 {
   text-align: center;
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 30px;
   font-family: var(--main-title);
   font-weight: 800;
 }
 
 .port-text h3 {
   font-size: 13px;
+}
+
+.ruachh {
+  background-color: white;
+  border-radius: 33px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ruachh article {
+  align-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.ruach-img {
+  border-radius: 33px;
+  margin-left: 0;
 }
 
 /* ABOUT */
