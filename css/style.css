@@ -326,6 +326,18 @@ details {
   font-size: 15px;
 }
 
+.dropdown-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  align-items: center;
+}
+
+.dropdown-info p {
+  font-size: 11px;
+  padding: 10px;
+}
+
 .border-btm {
   border-bottom: 1px solid #000000;
 }
