@@ -338,6 +338,10 @@ details {
   padding: 10px;
 }
 
+.dropdown-info iframe {
+  margin-top: 35px;
+}
+
 .border-btm {
   border-bottom: 1px solid #000000;
 }
@@ -800,6 +804,12 @@ article p {
 
 .meet-kelly .fine-print {
   font-size: 12px;
+}
+
+.meet-nicole {
+  max-width: 600px;
+  background-color: var(--lightpurple);
+  padding: 50px;
 }
 
 /* FOOTER */
