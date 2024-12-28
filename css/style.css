@@ -812,6 +812,13 @@ article p {
   padding: 50px;
 }
 
+.meet-nicole h3 {
+  font-family: var(--main-title);
+  font-weight: 400;
+  font-size: 25px;
+  font-style: italic;
+}
+
 .meet-nicole h5 {
   font-size: 13px;
   font-weight: 600;
