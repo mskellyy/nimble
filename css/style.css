@@ -472,17 +472,19 @@ form {
   margin: 0 auto;
   background-color: var(--beige);
   border-radius: 33px;
-  width: 300px;
+
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.form-text {
-  font-family: var(--paragraph);
-  font-size: 13px;
-  font-weight: 600;
-  color: black;
+textarea {
+  width: 600px;
+}
+
+.form-line {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
 
 .form-btn {
@@ -495,10 +497,25 @@ form {
   width: 120px;
 }
 
-.form-input {
+form .form-btn {
+  margin-top: 40px;
+}
+
+.fs-label {
+  display: block;
+  margin-top: 20px;
+}
+
+.fs-input,
+.fs-textarea {
   border-radius: 10px;
   border: 1px solid white;
   padding: 10px;
+  margin-top: 20px;
+}
+
+.fs-input {
+  width: 300px;
 }
 
 .grid-team {
@@ -734,8 +751,10 @@ form {
   text-align: center;
   margin: 0 auto;
   font-size: 30px;
-  font-family: var(--main-title);
-  font-weight: 800;
+  font-family: var(--paragraph);
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 60px;
 }
 
 .port-text h3 {
