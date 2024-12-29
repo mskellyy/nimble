@@ -520,7 +520,7 @@ form .form-btn {
 }
 
 .fs-input {
-  width: 300px;
+  width: 400px;
 }
 
 .grid-team {
@@ -1137,6 +1137,10 @@ footer {
 
   .banner-text p {
     font-size: 13px;
+  }
+
+  .form-line {
+    grid-template-columns: 1fr;
   }
 
   .footer-center .icons {
