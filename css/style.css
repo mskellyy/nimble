@@ -1121,6 +1121,10 @@ footer {
     margin-left: auto;
   }
 
+  .dropdown-info {
+    grid-template-columns: 1fr;
+  }
+
   .collab-banner {
     grid-template-columns: 1fr 1fr;
   }
@@ -1141,6 +1145,11 @@ footer {
 
   .form-line {
     grid-template-columns: 1fr;
+  }
+
+  .fs-input,
+  .fs-textarea {
+    width: 300px;
   }
 
   .footer-center .icons {
