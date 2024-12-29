@@ -342,6 +342,11 @@ details {
   margin-top: 35px;
 }
 
+.web-dropdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .border-btm {
   border-bottom: 1px solid #000000;
 }
