@@ -477,7 +477,7 @@ form {
   margin: 0 auto;
   background-color: var(--beige);
   border-radius: 33px;
-
+  max-width: 1000px;
   padding-bottom: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1009,6 +1009,11 @@ footer {
 
   .footer-logo {
     width: 100px;
+  }
+
+  .fs-input,
+  .fs-textarea {
+    width: 300px;
   }
 }
 
