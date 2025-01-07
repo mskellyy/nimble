@@ -537,6 +537,7 @@ form .form-btn {
   border: 1px solid white;
   padding: 10px;
   margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
 .fs-input {
@@ -1014,6 +1015,14 @@ footer {
     margin-top: 10px;
   }
 
+  .process-grid {
+    justify-content: center;
+  }
+
+  .itgirl-logo {
+    width: 20%;
+  }
+
   section span {
     display: block;
     width: 250px;
@@ -1052,13 +1061,21 @@ footer {
     justify-items: center;
   }
 
+  .process-grid {
+    gap: 5px;
+  }
+
+  .process-item {
+    width: 200px;
+  }
+
   .process-item h2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
   }
 
   .process-item h4 {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .hero-services .grid {
@@ -1130,6 +1147,10 @@ footer {
   .itgirl-left {
     align-self: center;
     margin-left: 40px;
+  }
+
+  .itgirl-logo {
+    width: 40%;
   }
 
   .month-grid {
