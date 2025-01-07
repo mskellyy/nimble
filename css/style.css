@@ -835,12 +835,13 @@ article p {
   max-width: 600px;
   background-color: var(--lightpurple);
   padding: 50px;
+  margin: 0 auto;
 }
 
 .meet-kelly h3 {
   font-family: var(--main-title);
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
 }
 
@@ -861,6 +862,7 @@ article p {
   max-width: 600px;
   background-color: var(--lightpurple);
   padding: 50px;
+  margin: 0 auto;
 }
 
 .meet-nicole h3 {
@@ -888,6 +890,7 @@ article p {
   background-color: var(--beige);
   padding: 50px;
   padding-bottom: 0;
+  margin: 0 auto;
 }
 
 .meet-lara h3 {
