@@ -649,6 +649,11 @@ form .form-btn {
   margin-bottom: 20px;
 }
 
+.project-card {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-bottom: 20px;
+}
+
 .project-card:hover {
   transform: scale(1.1);
   transition: all 1.5s;
