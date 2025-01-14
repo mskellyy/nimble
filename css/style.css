@@ -26,6 +26,14 @@
   font-style: normal;
 }
 
+.imperial-script-regular {
+  font-family: "Imperial Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+}
 
 */
 
@@ -40,7 +48,7 @@
 
   --logo-font: "League Spartan", sans-serif;
 
-  --bodoni: "Bodoni Moda", serif;
+  --script: "Imperial Script", serif;
 
   --border: 1px solid white;
 
@@ -836,6 +844,15 @@ article p {
   margin: 0 auto;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-pic {
+  margin-bottom: 20px;
+}
+
 .meet-kelly {
   max-width: 600px;
   background-color: var(--lightpurple);
@@ -844,10 +861,11 @@ article p {
 }
 
 .meet-kelly h3 {
-  font-family: var(--main-title);
+  font-family: var(--script);
   font-weight: 400;
-  font-size: 25px;
+  font-size: 60px;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .meet-kelly h5 {
@@ -864,17 +882,18 @@ article p {
 }
 
 .meet-nicole {
-  max-width: 600px;
   background-color: var(--lightpurple);
   padding: 50px;
   margin: 0 auto;
+  max-width: 1000px;
 }
 
 .meet-nicole h3 {
-  font-family: var(--main-title);
+  font-family: var(--script);
   font-weight: 400;
-  font-size: 23px;
+  font-size: 60px;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .meet-nicole h5 {
@@ -891,7 +910,7 @@ article p {
 }
 
 .meet-lara {
-  max-width: 600px;
+  max-width: 1000px;
   background-color: var(--beige);
   padding: 50px;
   padding-bottom: 0;
@@ -900,9 +919,10 @@ article p {
 
 .meet-lara h3 {
   font-weight: 400;
-  font-family: var(--main-title);
-  font-size: 23px;
+  font-family: var(--script);
+  font-size: 60px;
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .meet-lara h5 {
@@ -916,6 +936,12 @@ article p {
 
 .meet-lara .fine-print {
   font-size: 12px;
+}
+
+.itgirl-about-logo {
+  margin: 0 auto;
+
+  display: block;
 }
 
 /* FOOTER */
@@ -1211,6 +1237,10 @@ footer {
   .fs-input,
   .fs-textarea {
     width: 300px;
+  }
+
+  .about-grid {
+    display: block;
   }
 
   .footer-center .icons {
