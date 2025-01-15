@@ -1247,6 +1247,10 @@ footer {
     display: block;
   }
 
+  .meet-lara .about-pic {
+    margin-bottom: 20px;
+  }
+
   .footer-center .icons {
     margin-left: 25px;
   }
