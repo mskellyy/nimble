@@ -755,8 +755,9 @@ form .form-btn {
 }
 
 .itgirl-right h2 {
-  font-size: 15px;
+  font-size: 25px;
   padding-bottom: 10px;
+  font-family: var(--script);
 }
 
 .itgirl-right p {
@@ -1083,6 +1084,18 @@ footer {
     justify-items: center;
   }
 
+  .service-menu-2 h5 {
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
+  .service-menu h5 {
+    font-size: 11px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
   .process-grid {
     gap: 5px;
   }
@@ -1163,7 +1176,7 @@ footer {
   .itgirl-right {
     align-self: center;
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   .itgirl-left {
