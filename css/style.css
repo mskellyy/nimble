@@ -818,6 +818,18 @@ form .form-btn {
   font-size: 13px;
 }
 
+.ruach-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.ruach-pics {
+  max-width: 250px;
+}
+
 /* ABOUT */
 
 .about-container {
@@ -1022,7 +1034,7 @@ footer {
 }
 
 /* ipad */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .hero-services h1 {
     text-align: center;
     font-size: 50px;
@@ -1060,6 +1072,10 @@ footer {
 
   .itgirl-right p {
     font-size: 12px;
+  }
+
+  .ruach-pics {
+    max-width: 150px;
   }
 
   .footer-logo {
@@ -1242,6 +1258,16 @@ footer {
 
   .meet-lara .about-pic {
     margin-bottom: 20px;
+  }
+
+  .ruach-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+  }
+
+  .ruach-pics {
+    max-width: 200px;
   }
 
   .footer-center .icons {
