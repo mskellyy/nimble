@@ -617,7 +617,7 @@ form .form-btn {
 
 .package-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 30px;
   margin-bottom: 5px;
   justify-content: space-evenly;
