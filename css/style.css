@@ -849,6 +849,17 @@ form .form-btn {
   max-width: 250px;
 }
 
+.styled-section {
+  display: block;
+  margin: 0 auto;
+}
+
+.styled-pics {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* ABOUT */
 
 .about-container {
