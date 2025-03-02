@@ -445,6 +445,10 @@ details {
   padding-bottom: 20px;
 }
 
+.about-banner {
+  background-color: var(--lightpurple);
+}
+
 .banner-card img {
   border: 1px solid white;
   border-radius: 40px;
