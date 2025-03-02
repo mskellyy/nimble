@@ -804,10 +804,9 @@ form .form-btn {
 .port-hero h1 {
   text-align: center;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--paragraph);
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 200;
   margin-bottom: 60px;
 }
 
@@ -824,6 +823,26 @@ form .form-btn {
   gap: 0px;
   margin: 0 auto;
   justify-items: center;
+}
+
+.team-grid {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.team-grid .icons {
+  padding-top: 0px;
+}
+
+.team-grid h3 {
+  font-size: 13px;
+}
+
+.team-grid h2 {
+  font-size: 15px;
+  font-family: var(--paragraph);
+  font-weight: 500;
 }
 
 .ruach-pics {
