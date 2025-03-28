@@ -36,8 +36,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       crossorigin="anonymous"
     />
     <!-- STYLESHEETS -->
+ <link rel="preload" href="NewIconSerif-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="NewIconSerif-Condensed.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="NewIconSerif-CondensedItalic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="NewIconSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="NewIconScript-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css" />
      <link rel="stylesheet" href="css/move.css" />
+  
     <!--SEO-->
     <link rel="apple-touch-icon" href="/img/small-logo.png">
     <link rel="apple-touch-startup-image" href="/img/main-logo.png">
@@ -73,83 +79,69 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img
-            src="img/main-logo.png"
-            alt="Logo"
-            width="200"
-            class="d-inline-block align-text-top"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-               <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          
+<nav class="navbar navbar-expand-lg bg-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="img/white-logo.png" alt="Logo" width="200" class="d-inline-block align-text-top" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto"> <!-- me-auto pushes everything to the left -->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/services.html#workCollab">Contact</a>
+        </li>
+      </ul>
+      
+      <!-- Instagram Icon on the Right -->
+      <a href="https://www.instagram.com/nimble.web.dev/" target="_blank" rel="noopener noreferrer" title="Instagram" class="nav-link">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contact
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="/services.html#workCollab"
-                    >Project Inquiry</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/about.html#joinTeam">Join our Team</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </div>
+</nav>
+
 
         
-    </section>
+  
 
-     <section class="container hero a-right">
-      <a href="/services.html#workCollab" target="_blank" class="hero-link"><h1>Launch your business,</br> for only $500 down</h5></a>
+     <div class="hero container a-right">
+     
+       <div class="hero-text">
+      <a href="/services.html#workCollab" target="_blank" class="hero-link"><h1><span class="cursive">Launch</span> your business,</br> for only $500 down</h1></a>
         <h3>payment plans for 6 and 12 months available for packages,</br> our sites are crafted to connect with your audience </br> and grow your brand</h3>
      </br>
       
-         <a href="/services.html#workCollab" title="Book a Free Discovery Call" class="btn card-btn" target="_blank">Book a Free Discovery Call</a>
+         <a href="/services.html#workCollab" title="Book a Free Discovery Call" class="btn card-btn" target="_blank">Book a Discovery Call</a>
          </div>
-
-   
-        
-    </section>
+           <div>
+           <img src="img/hero.JPG" alt="more time creating"  class="hero-img">
+       </div>
+        </div>
+      </div>
 
       <div class="hero-services a-up">
-       <h1 title="Nimble Services" class="a-right">Services</h1>
+       <h1 title="Nimble Services" class="a-right cursive">Services</h1>
         <h4 class="a-right">WHAT WE DO BEST</h4>
       
           <div class="grid">
@@ -331,7 +323,7 @@ that feels good, works for you, and sets you up for long-term success.</p>
         <img src="img/one.png" alt="girls" width="100%">
       </div>
     </div>
-    
+  </div>
 
       
     <footer>

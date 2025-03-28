@@ -39,6 +39,51 @@
 
 /* Variables */
 
+@font-face {
+  font-family: "New Icon Serif Cond";
+  src: url(/css/fonts/NewIconSerif-Condensed.woff2) format("woff2"),
+    url(/css/fonts/NewIconSerif-Condensed.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "New Icon Serif Cond";
+  src: url(/css/fonts/NewIconSerif-CondensedItalic.woff2) format("woff2"),
+    url(/css/fonts/NewIconSerif-CondensedItalic.woff) format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "New Icon Serif";
+  src: url(/css/fonts/NewIconSerif-Regular.woff2) format("woff2"),
+    url(/css/fonts/NewIconSerif-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "New Icon Serif";
+  src: url(/css/fonts/NewIconSerif-Italic.woff2) format("woff2"),
+    url(/css/fonts/NewIconSerif-Italic.woff) format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "New Icon Script";
+  src: url(/css/fonts/NewIconScript-Regular.woff2) format("woff2"),
+    url(/css/fonts/NewIconScript-Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --heading: "Playfair Display", serif;
 
@@ -48,13 +93,15 @@
 
   --logo-font: "League Spartan", sans-serif;
 
-  --script: "Imperial Script", serif;
+  --script: "New Icon Script", serif;
+
+  --normal: "New Icon Serif";
 
   --border: 1px solid white;
 
-  --darkgrey: #6b5d58;
+  --darkgrey: #252525;
   --lightpurple: #dccfec;
-  --beige: #f1e6e0;
+  --beige: #f6f5f0;
 }
 
 html,
@@ -82,9 +129,33 @@ h3 {
 }
 
 .container {
-  text-align: center;
   width: auto;
   margin-top: 20px;
+  text-align: center;
+}
+
+.bg-custom {
+  background-color: var(--darkgrey);
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important; /* Change to any color you like */
+}
+
+.navbar .fa-instagram {
+  font-size: 1.5rem; /* Adjust size */
+  color: white !important;
+  transition: color 0.3s ease-in-out;
+  margin-right: 50px;
+}
+
+.navbar .fa-instagram:hover {
+  color: #ffcc00; /* Change to desired hover color */
 }
 
 /* MESSAGE BANNERS */
@@ -115,12 +186,10 @@ h3 {
 /* INDEX PAGE */
 
 .hero h1 {
-  font-family: var(--logo-font);
   font-size: 70px;
   text-align: left;
   margin-top: 30px;
-  font-weight: 800;
-
+  font-family: "New Icon Serif";
   line-height: 1;
 }
 
@@ -131,10 +200,18 @@ h3 {
 }
 
 .hero {
-  text-align: left;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.hero-img {
+  width: 800px;
 }
 
 .hero .card-btn {
@@ -148,19 +225,18 @@ h3 {
 .hero-services {
   margin: 0 auto;
   text-align: center;
-  color: black;
-  background-color: #dccfec;
+  color: white;
+  background-color: var(--darkgrey);
   padding: 80px;
   width: auto;
 }
 
 .hero-services h1 {
-  font-family: var(--logo-font);
-  font-weight: 800;
-  font-size: 40px;
-  letter-spacing: 2px;
+  font-size: 60px;
   margin-bottom: 25px;
   line-height: 0;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .hero-services h4 {
@@ -439,10 +515,14 @@ details {
   justify-content: center;
   align-content: space-evenly;
   align-items: center;
-  background-color: #f1e6e0;
+  background-color: var(--beige);
   max-width: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.collab-banner h3 {
+  font-family: "New Icon Serif";
 }
 
 .purple-banner {
@@ -456,6 +536,8 @@ details {
 
 .banner-card {
   border: 1px solid white;
+  background-color: var(--beige);
+  opacity: 0.9;
   border-radius: 40px;
   width: 250px;
   height: 200px;
@@ -606,7 +688,7 @@ form .form-btn {
 }
 
 .services h1 {
-  font-family: var(--logo-font);
+  font-family: var(--script);
   font-weight: 800;
   font-size: 60px;
   padding-bottom: 0px;
@@ -674,6 +756,7 @@ form .form-btn {
 .project-card {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
   margin-bottom: 20px;
+  border: 1px solid black;
 }
 
 .project-card:hover {
@@ -697,7 +780,8 @@ form .form-btn {
 }
 
 .service-menu-2 {
-  background-color: var(--lightpurple);
+  background-color: var(--darkgrey);
+  color: white;
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 5px;
@@ -707,8 +791,7 @@ form .form-btn {
 }
 
 .service-menu h1 {
-  font-family: var(--logo-font);
-  font-weight: 800;
+  font-family: var(--script);
   font-size: 40px;
   margin-bottom: 0px;
 }
@@ -723,13 +806,18 @@ form .form-btn {
 }
 
 .service-menu-2 h1 {
-  font-family: var(--logo-font);
-  font-weight: 800;
+  font-family: var(--normal);
   font-size: 40px;
   margin-bottom: 0px;
 }
 
+.service-menu-2 span {
+  font-size: 50px;
+}
+
 .service-menu-2 h5 {
+  font-family: var(--normal);
+  letter-spacing: 1px;
   font-size: 15px;
   margin-bottom: 40px;
 }
@@ -742,6 +830,7 @@ form .form-btn {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2px;
+  border: 1px solid black;
 }
 
 .itgirl-section .itgirl-left {
@@ -800,18 +889,20 @@ form .form-btn {
 
 /* PORTFOLIO */
 .port-hero {
-  background-color: var(--lightpurple);
-  padding-top: 30px;
+  background-color: var(--beige);
+  padding-top: 40px;
   padding-bottom: 7px;
+  border: 1px solid black;
 }
 
 .port-hero h1 {
   text-align: center;
   margin: 0 auto;
-  font-size: 25px;
-  font-family: var(--paragraph);
-  font-weight: 200;
+  font-size: 55px;
+  font-family: var(--normal);
   margin-bottom: 60px;
+  margin-top: 30px;
+  line-height: 0.8;
 }
 
 .port-text {
@@ -851,6 +942,7 @@ form .form-btn {
 
 .ruach-pics {
   max-width: 250px;
+  border: 1px solid black;
 }
 
 .styled-section {
@@ -862,6 +954,7 @@ form .form-btn {
   max-width: 600px;
   display: block;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 /* ABOUT */
@@ -881,18 +974,16 @@ form .form-btn {
 }
 
 .meet-kelly {
-  max-width: 600px;
-  background-color: var(--lightpurple);
+  background-color: var(--darkgrey);
+  color: white;
   padding: 50px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .meet-kelly h3 {
   font-family: var(--script);
-  font-weight: 400;
-  font-size: 60px;
-  font-style: italic;
-  margin-bottom: 0;
+  font-size: 50px;
 }
 
 .meet-kelly h5 {
@@ -908,18 +999,21 @@ form .form-btn {
   font-size: 12px;
 }
 
+.meet-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .meet-nicole {
-  background-color: var(--lightpurple);
+  background-color: var(--darkgrey);
+  color: white;
   padding: 50px;
   margin: 0 auto;
-  max-width: 1000px;
 }
 
 .meet-nicole h3 {
   font-family: var(--script);
-  font-weight: 400;
-  font-size: 60px;
-  font-style: italic;
+  font-size: 50px;
   margin-bottom: 0;
 }
 
@@ -945,10 +1039,8 @@ form .form-btn {
 }
 
 .meet-lara h3 {
-  font-weight: 400;
   font-family: var(--script);
-  font-size: 60px;
-  font-style: italic;
+  font-size: 50px;
   margin-bottom: 0;
 }
 
@@ -985,7 +1077,7 @@ footer .footer-logo {
 }
 
 footer {
-  background-color: #f8f9fa;
+  background-color: var(--darkgrey);
   padding-top: 30px;
 }
 
@@ -1011,7 +1103,7 @@ footer {
 .footer-grid h2 {
   text-decoration: none;
   font-size: 13px;
-  color: var(--darkgrey);
+  color: white;
   align-self: flex-start;
   cursor: pointer;
 }
@@ -1028,7 +1120,7 @@ footer {
 
 .icons a {
   text-decoration: none;
-  color: #000000;
+  color: white;
 }
 
 .icons a:hover {
@@ -1069,9 +1161,31 @@ footer {
 
 /* ipad */
 @media (max-width: 1024px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+    margin-right: 0;
+
+    margin: 0 auto;
+  }
+
+  .hero-img {
+    max-width: 500px;
+  }
+
+  .hero-text {
+    padding-right: 20px;
+    max-width: 500px;
+  }
+
   .hero-services h1 {
     text-align: center;
     font-size: 50px;
+  }
+
+  .hero a.btn.card-btn {
+    margin-top: 5px;
   }
 
   .hero h3 {
