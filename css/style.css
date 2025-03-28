@@ -158,6 +158,13 @@ h3 {
   color: var(--lightpurple) !important; /* Change to desired hover color */
 }
 
+.navbar-toggler-icon {
+  filter: invert(1); /* Makes it white */
+}
+.navbar-toggler {
+  border: 1px solid white !important; /* White border */
+}
+
 /* MESSAGE BANNERS */
 
 .message-banner {
