@@ -460,9 +460,8 @@ details {
 }
 
 .process-section h5 {
-  font-family: var(--paragraph);
-  font-size: 17px;
-  font-weight: 600;
+  font-family: var(--script);
+  font-size: 23px;
   margin-top: 10px;
   letter-spacing: 3px;
   margin-bottom: 30px;
@@ -511,6 +510,16 @@ details {
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.process-item h2 {
+  font-family: var(--normal);
+  font-size: 25px;
+}
+
+.process-item h4 {
+  font-family: var(--paragraph);
+  font-size: 12px;
 }
 
 .collab-banner {
