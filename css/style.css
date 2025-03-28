@@ -215,6 +215,7 @@ h3 {
 .hero-text {
   margin-right: 10px;
   align-self: center;
+  width: 400px;
 }
 
 .hero-img {
@@ -1172,6 +1173,10 @@ footer {
     font-size: 14px;
   }
 
+  .hero-text {
+    width: 500px;
+  }
+
   .footer-center .icons {
     margin-left: 35px;
   }
@@ -1194,7 +1199,7 @@ footer {
 
   .hero-text {
     padding-right: 20px;
-    max-width: 500px;
+    max-width: 350px;
   }
 
   .hero-services h1 {
@@ -1315,6 +1320,10 @@ footer {
   .hero .card-btn {
     font-size: 11px;
     width: 100px;
+  }
+
+  .hero-text {
+    max-width: 200px;
   }
 
   .hero-about {
