@@ -1021,8 +1021,8 @@ form .form-btn {
 }
 
 .meet-nicole {
-  background-color: var(--darkgrey);
-  color: white;
+  background-color: var(--beige);
+  color: black;
   padding: 50px;
   margin: 0 auto;
 }
@@ -1048,7 +1048,8 @@ form .form-btn {
 
 .meet-lara {
   max-width: 1000px;
-  background-color: var(--beige);
+  background-color: var(--darkgrey);
+  color: white;
   padding: 50px;
   padding-bottom: 0;
   margin: 0 auto;
