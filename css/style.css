@@ -456,7 +456,7 @@ details {
 
 .process-section {
   padding: 20px;
-  background-color: var(--lightpurple);
+  background-color: white;
 }
 
 .process-section h5 {
@@ -526,6 +526,7 @@ details {
   max-width: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid black;
 }
 
 .collab-banner h3 {
