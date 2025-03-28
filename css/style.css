@@ -1098,6 +1098,7 @@ footer {
 
 .footer-left {
   align-items: center;
+  margin-left: 10px;
 }
 
 .footer-grid h2 {
