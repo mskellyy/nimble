@@ -15,3 +15,42 @@ const observer = new IntersectionObserver(
 );
 
 elementsToAnimate.forEach((element) => observer.observe(element));
+
+// Word animation
+document.addEventListener("DOMContentLoaded", function () {
+  const phrases = [
+    "work harder than you do.",
+    "feel like home to the right people.",
+    "speak before you say a word.",
+    "make sense.",
+  ];
+
+  let textElement = document.querySelector(".typing-text");
+  let cursor = document.querySelector(".cursor");
+  let index = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+
+  function typeEffect() {
+    let currentPhrase = phrases[index];
+
+    if (isDeleting) {
+      textElement.textContent = currentPhrase.substring(0, charIndex--);
+    } else {
+      textElement.textContent = currentPhrase.substring(0, charIndex++);
+    }
+
+    if (!isDeleting && charIndex === currentPhrase.length + 1) {
+      isDeleting = true;
+      setTimeout(typeEffect, 1000); // Pause before deleting
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      index = (index + 1) % phrases.length; // Move to the next phrase
+      setTimeout(typeEffect, 500); // Pause before typing the next phrase
+    } else {
+      setTimeout(typeEffect, isDeleting ? 50 : 100); // Typing & deleting speed
+    }
+  }
+
+  typeEffect();
+});

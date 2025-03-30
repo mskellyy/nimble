@@ -104,6 +104,54 @@
   --beige: #f6f5f0;
 }
 
+/* Centering everything */
+.brand-message-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  background-color: #252525;
+  text-align: center;
+  width: 100%;
+}
+
+/* Styling the static text */
+.static-text {
+  font-family: var(--script);
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Container for the typing effect */
+.typing-container {
+  font-size: 24px;
+  font-family: var(--normal);
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid transparent; /* Prevents layout shift */
+}
+
+/* Blinking cursor */
+.cursor {
+  font-weight: bold;
+  font-size: 24px;
+  display: inline-block;
+  color: white;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 html,
 body {
   width: 100%;
