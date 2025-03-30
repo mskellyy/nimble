@@ -1402,8 +1402,9 @@ footer {
   }
 
   .hero .card-btn {
-    font-size: 11px;
-    width: 100px;
+    font-size: 12px;
+
+    max-width: 150px;
   }
 
   .hero-text {
