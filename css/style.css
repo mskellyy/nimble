@@ -1272,6 +1272,9 @@ footer {
   .hero-text {
     padding-right: 20px;
     max-width: 350px;
+    margin-right: 10px;
+    align-self: center;
+    justify-items: left;
   }
 
   .hero-services h1 {
@@ -1281,6 +1284,7 @@ footer {
 
   .hero a.btn.card-btn {
     margin-top: 5px;
+    width: 150px;
   }
 
   .hero h3 {
