@@ -271,6 +271,7 @@ h3 {
 .hero-text {
   margin-right: 10px;
   align-self: center;
+  justify-items: left;
   width: 400px;
 }
 
