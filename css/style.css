@@ -1247,6 +1247,14 @@ footer {
 
   .hero-text {
     width: 500px;
+    padding-right: 20px;
+    margin-right: 10px;
+    align-self: center;
+    justify-items: left;
+  }
+
+  .laptop-hero {
+    width: 450px;
   }
 
   .footer-center .icons {
@@ -1284,7 +1292,7 @@ footer {
 
   .hero a.btn.card-btn {
     margin-top: 5px;
-    width: 150px;
+    width: 250px;
   }
 
   .hero h3 {
@@ -1407,6 +1415,10 @@ footer {
     justify-content: center;
     align-content: center;
     justify-items: center;
+  }
+
+  .laptop-hero {
+    width: 350px;
   }
 
   .hero-about-left {
