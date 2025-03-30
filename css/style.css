@@ -1403,7 +1403,6 @@ footer {
 
   .hero .card-btn {
     font-size: 12px;
-
     max-width: 150px;
   }
 
@@ -1543,6 +1542,11 @@ footer {
     max-width: 350px;
     display: block;
     margin: 0 auto;
+  }
+
+  .iphone-pics {
+    width: 300px;
+    padding-bottom: 10px;
   }
 
   .footer-center .icons {
