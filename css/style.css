@@ -1333,6 +1333,11 @@ footer {
     max-width: 150px;
   }
 
+  .iphone-pics {
+    width: 500px;
+    padding-bottom: 20px;
+  }
+
   .footer-logo {
     width: 100px;
   }
