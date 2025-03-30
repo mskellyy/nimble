@@ -134,6 +134,7 @@
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
+  width: 400px;
   border-right: 2px solid transparent; /* Prevents layout shift */
 }
 
@@ -636,6 +637,11 @@ details {
   font-weight: 600;
   width: 120px;
   color: var(--darkgrey);
+}
+
+.laptop-hero {
+  display: block;
+  margin: 0 auto;
 }
 
 /* CONTACT PAGE / FORM */
