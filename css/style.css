@@ -726,6 +726,25 @@ form .form-btn {
   gap: 10px;
 }
 
+.package {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.package h1 {
+  font-family: var(--normal);
+  font-size: 30px;
+}
+
+.package h4 {
+  font-family: var(--normal);
+  font-size: 22px;
+}
+
+.package h3 {
+  font-size: 13px;
+}
+
 .card-btn {
   border: 1px solid white;
   border-radius: 33px;
@@ -736,18 +755,6 @@ form .form-btn {
   width: 200px;
   margin-top: 30px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
-}
-
-.card-text {
-  font-size: small;
-}
-
-.card-body h5 {
-  font-size: 17px;
-}
-
-.list-group-item {
-  font-size: small;
 }
 
 .services {
@@ -766,17 +773,6 @@ form .form-btn {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 40px;
   margin-bottom: 20px;
-}
-
-.project-card {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
-  margin-bottom: 20px;
-  border: 1px solid black;
-}
-
-.project-card:hover {
-  transform: scale(1.1);
-  transition: all 1.5s;
 }
 
 .fine-print {
@@ -847,35 +843,34 @@ form .form-btn {
   font-size: 15px;
 }
 
-.month-grid {
+.featured {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.month-card {
-  text-align: center;
-  border: 1px solid white 0.2;
-  border-radius: 40px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.featured-section {
+  background-color: var(--beige);
+  padding: 40px;
+  border: 1px solid black;
 }
 
-.month-card h5 {
-  margin-bottom: 15px;
+.featured h1 {
+  font-family: var(--script);
 }
 
-.month-card h3 {
-  font-size: 12px;
+.featured h2 {
+  font-family: var(--normal);
+  font-size: 22px;
 }
 
-.month-card h4 {
-  font-size: 13px;
+.featured h3 {
+  font-family: var(--normal);
+  font-size: 20px;
   font-style: italic;
-  margin-top: 15px;
+}
+
+.featured h4 {
+  font-family: var(--normal);
 }
 
 /* PORTFOLIO */
@@ -1390,10 +1385,10 @@ footer {
     width: 40%;
   }
 
-  .month-grid {
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10px;
-    margin-right: 10px;
+  .featured {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .footer-center h6 {
