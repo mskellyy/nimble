@@ -731,6 +731,10 @@ form .form-btn {
   padding: 20px;
 }
 
+.package p {
+  font-size: 13px;
+}
+
 .package h1 {
   font-family: var(--normal);
   font-size: 30px;
@@ -742,7 +746,8 @@ form .form-btn {
 }
 
 .package h3 {
-  font-size: 13px;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .card-btn {
