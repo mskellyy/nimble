@@ -873,6 +873,10 @@ form .form-btn {
   font-family: var(--normal);
 }
 
+.featured p {
+  font-size: 13px;
+}
+
 /* PORTFOLIO */
 
 .iphone-pics {
