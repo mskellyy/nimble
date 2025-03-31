@@ -1468,6 +1468,12 @@ footer {
     margin: 0 auto;
   }
 
+  .holistica-pics {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .iphone-pics {
     width: 300px;
     padding-bottom: 10px;
