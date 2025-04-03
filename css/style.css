@@ -951,6 +951,11 @@ form .form-btn {
   margin: 0 auto;
 }
 
+.aura-section {
+  display: block;
+  margin: 0 auto;
+}
+
 .styled-pics {
   max-width: 600px;
   display: block;
@@ -959,6 +964,13 @@ form .form-btn {
 }
 
 .holistica-pics {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.aura-pics {
   max-width: 600px;
   display: block;
   margin: 0 auto;
