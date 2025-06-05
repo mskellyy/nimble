@@ -977,6 +977,18 @@ form .form-btn {
   border: 1px solid black;
 }
 
+.tsev-section {
+  display: block;
+  margin: 0 auto;
+}
+
+.tsev-pics {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
 /* ABOUT */
 
 .about-container {
