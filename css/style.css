@@ -275,15 +275,15 @@ h3 {
   width: 400px;
   display: flex;
   flex-direction: column;
-  justify-self: center; /* centers .hero-text in your grid cell */
-  align-self: center; /* if you also need vertical centering */
+  justify-self: center;
+  align-self: center;
 }
 
 .hero-text .card-btn {
   margin-top: 30px;
   border: 1px solid #000;
   width: 200px;
-  align-self: flex-start; /* forces the button to hug the left edge */
+  align-self: flex-start;
 }
 
 .hero-img {
@@ -702,6 +702,17 @@ form .form-btn {
 }
 
 /* SERVICES PAGE */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.services {
+  justify-self: center;
+  align-self: center;
+}
 
 .services h5 {
   font-size: 17px;
@@ -1316,6 +1327,10 @@ footer {
     font-size: 11px;
     margin-bottom: 40px;
     margin-top: 10px;
+  }
+
+  .services-grid {
+    display: block;
   }
 
   .process-grid {
