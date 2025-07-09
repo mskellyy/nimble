@@ -1363,6 +1363,18 @@ footer {
     font-size: 12px;
   }
 
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-text {
+    max-width: 340px;
+    padding-right: 10px;
+    align-content: flex-start;
+  }
+
   .hero h1 {
     font-size: 60px;
   }
@@ -1378,15 +1390,12 @@ footer {
     max-width: 150px;
   }
 
-  .hero-text {
-    max-width: 200px;
-  }
-
   .hero-about {
     grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
     justify-items: center;
+    gap: 20px;
   }
 
   .laptop-hero {
