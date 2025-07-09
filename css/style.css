@@ -714,6 +714,11 @@ form .form-btn {
   align-self: center;
 }
 
+.services-image {
+  justify-self: center;
+  align-self: center;
+}
+
 .services h5 {
   font-size: 17px;
 }
