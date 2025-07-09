@@ -239,6 +239,10 @@ h3 {
   color: white;
 }
 
+.brand-message-section {
+  padding: 120px;
+}
+
 /* INDEX PAGE */
 
 .hero h1 {
@@ -401,6 +405,9 @@ h3 {
   font-size: 40px;
   line-height: 1;
   margin-bottom: 25px;
+  font-family: "New Icon Serif";
+  line-height: 1;
+  font-style: italic;
 }
 
 .hero-about-right p {
