@@ -272,10 +272,18 @@ h3 {
 }
 
 .hero-text {
-  margin-right: 10px;
-  align-self: center;
-  justify-items: left;
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center; /* centers .hero-text in your grid cell */
+  align-self: center; /* if you also need vertical centering */
+}
+
+.hero-text .card-btn {
+  margin-top: 30px;
+  border: 1px solid #000;
+  width: 200px;
+  align-self: flex-start; /* forces the button to hug the left edge */
 }
 
 .hero-img {
@@ -285,12 +293,6 @@ h3 {
 
 .hero-img-right {
   align-content: stretch;
-}
-
-.hero-text .card-btn {
-  margin-top: 30px;
-  border: 1px solid #000000;
-  width: 200px;
 }
 
 .hero-services {
