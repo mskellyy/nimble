@@ -265,7 +265,6 @@ h3 {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
 }
 
 .hero-text {
@@ -287,7 +286,11 @@ h3 {
 .hero .card-btn {
   margin-top: 30px;
   border: 1px solid #000000;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 200px;
+  justify-items: left;
 }
 
 .hero-services {
@@ -939,11 +942,6 @@ form .form-btn {
   font-size: 15px;
   font-family: var(--paragraph);
   font-weight: 500;
-}
-
-.ruach-pics {
-  max-width: 250px;
-  border: 1px solid black;
 }
 
 .styled-section {
