@@ -287,14 +287,10 @@ h3 {
   align-content: stretch;
 }
 
-.hero .card-btn {
+.hero-text .card-btn {
   margin-top: 30px;
   border: 1px solid #000000;
-  padding: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
   width: 200px;
-  justify-items: left;
 }
 
 .hero-services {
@@ -402,9 +398,9 @@ h3 {
 }
 
 .hero-about-right h1 {
-  font-size: 40px;
+  font-size: 55px;
   line-height: 1;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   font-family: "New Icon Serif";
   line-height: 1;
   font-style: italic;
@@ -412,6 +408,7 @@ h3 {
 
 .hero-about-right p {
   margin-bottom: 20px;
+  max-width: 500px;
 }
 
 .hero-about-right .card-btn {
