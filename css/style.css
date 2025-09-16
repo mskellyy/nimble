@@ -938,14 +938,6 @@ form .form-btn {
   font-size: 13px;
 }
 
-.ruach-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px;
-  margin: 0 auto;
-  justify-items: center;
-}
-
 .team-grid {
   text-align: center;
   margin-top: 20px;
@@ -966,43 +958,12 @@ form .form-btn {
   font-weight: 500;
 }
 
-.styled-section {
+.portfolio-section {
   display: block;
   margin: 0 auto;
 }
 
-.aura-section {
-  display: block;
-  margin: 0 auto;
-}
-
-.styled-pics {
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-
-.holistica-pics {
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-
-.aura-pics {
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid black;
-}
-
-.tsev-section {
-  display: block;
-  margin: 0 auto;
-}
-
-.tsev-pics {
+.portfolio-pics {
   max-width: 600px;
   display: block;
   margin: 0 auto;
