@@ -1472,23 +1472,7 @@ footer {
     margin-bottom: 20px;
   }
 
-  .ruach-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-  }
-
-  .ruach-pics {
-    max-width: 200px;
-  }
-
-  .styled-pics {
-    max-width: 350px;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .holistica-pics {
+  .portfolio-pics {
     max-width: 350px;
     display: block;
     margin: 0 auto;
